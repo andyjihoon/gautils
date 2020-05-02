@@ -12,10 +12,10 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     packages=setuptools.find_packages(),
+    url='https://github.com/andyjihoon/gautils',
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
 )
